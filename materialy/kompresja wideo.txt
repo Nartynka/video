@@ -1,0 +1,18 @@
+Kompresja danych wideo daje redukcję wielkości pliku wideo,
+przez co w porównaniu z formatem wideo bez kompresji szybszy jest transfer danych zaś zapis wymaga mniej pamięci.
+Istnieją różne tryby kompresji, z których najczęściej stosowanymi są MPEG i MJPEG.
+
+Przykłady trybu kompresji:
+
+Kompresja MPEG wykorzystuje zasadę, że na kolejnych klatkach filmu wideo przeważnie 
+większość danych obrazu jest identyczna i nie ma potrzeby pełnego ich zapisu dla każdego obrazu. 
+Kodek MPEG tworzy tzw. grupy obrazu, w których zostaje dokładnie zapisany pierwszy kluczowy obraz, zaś kolejne są jedynie interpretowane. 
+W ten sposób jest możliwa znaczna kompresja danych, jednak montaż obrazu wideo jest możliwy jedynie w miejscach z kluczowym obrazem.
+
+Natomiast w kompresji MJPEG (=MotionJPEG) kompresji za pomocą JPEG podlega każdy obraz niezależnie od ruchu. 
+W ten sposób clip wideo jest kodowany jako sekwencja obrazów JPEG, zaś montaż jest możliwy w każdym obrazie. 
+Jakość obrazu wideo jest wysoka i odpowiada przy 3 MB/s obrazowi S-VHS. Cyfrowe kamery wideo wykorzystują przeważnie standard MJPEG.
+
+Inne rodzaje kompresji to np.:
+
+MPEG-1, MPEG-2, MPEG-4, H.263, H.264/AVC.
